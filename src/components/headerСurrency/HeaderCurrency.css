@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    width: 1200px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 0 auto;
+    border: border-box;
+    box-shadow: 15px 10px 30px rgba(0, 0, 0, 2);
+}
+
+.text {
+    margin: 0 auto;
+    font-family: cursive, sans-serif;
+    font-size: calc(20px + 2vmin);
+    width: 500px;
+    height: 70px;
+    background-color: rgb(213, 213, 213);
+}
+
+.containerInf {
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.information {
+    padding-top: 5px;
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    margin: 30px 60px;
+    background-color: rgb(255, 255, 255);
+    font-size: calc(10px + 2vmin);
+    color: rgb(0, 0, 0);
+    border: border-box;
+    box-shadow: 15px 10px 30px rgba(0, 0, 0, 2);
+    position: relative;
+}
+
+.col {
+    color: rgb(177, 49, 2);
+}
+
+.information:hover {
+    color: rgb(177, 49, 2);
+    transition-duration: 1s;
+    font-size: calc(12px + 2vmin);
+    cursor: pointer;
+}

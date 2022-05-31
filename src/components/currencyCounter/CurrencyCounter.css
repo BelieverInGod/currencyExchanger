@@ -1,0 +1,54 @@
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.box {
+    color: rgb(0, 0, 0);
+    width: 550px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 0 auto;
+    border: border-box;
+    box-shadow: 15px 10px 30px rgba(0, 0, 0, 2);
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.decoration {
+    margin-top: 40px;
+    position: relative;
+    width: 40px;
+    height: 40px; 
+    background-color: white; 
+    border-radius: 50%;
+}
+
+label {
+    display: block;
+    font-size: 30px;
+    margin: 0;
+}
+input {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+}
+
+select {
+    color: white;
+    background-color: #303a43;
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 20px;
+  }
